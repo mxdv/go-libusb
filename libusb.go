@@ -2,7 +2,7 @@ package libusb
 
 /*
 	#cgo LDFLAGS: -lusb
-	#include <usb.h>
+	#include <lusb0_usb>
 */
 import "C"
 import "unsafe"
